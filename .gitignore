@@ -1,0 +1,136 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+.env
+
+# Streamlit
+.streamlit/
+streamlit_config.yaml
+
+# Large Model Files (GitHub limit 100MB)
+*.pkl
+*.pickle
+*.pckl
+model_*.pkl
+scaler.pkl
+model_info.pkl
+*.joblib
+*.h5
+*.pth
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Local files
+.env
+.env.local
+local_config.py
+secrets.json
+config.local.py
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Logs
+*.log
+logs/
+
+# Cache
+*.cache
+.cache
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Dependencies lock files (optional)
+# Pipenv
+# Pipfile.lock
+
+# MacOS
+.AppleDouble
+.AppleDB
+
+# Node (if using any JS)
+node_modules/
+npm-debug.log
+
+# Docker
+.dockerignore
+docker-compose.local.yml
+
+# Data files (optional - only if very large)
+# *.csv  # Uncomment if CSV files are too large
+# *.json # Uncomment if JSON files are too large
+
+# Misc
+.vagrant/
+*.swp
+*.swo
+dist/
+*.egg
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
